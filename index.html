@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>TechPartner Milano | Rivenditori Autorizzati WindTre e Vodafone | 6 Negozi</title>
+    <meta name="description" content="Partner ufficiale WindTre e Vodafone a Milano. 6 negozi per consulenza gratuita business e privati. Confrontiamo tutte le offerte per trovare la soluzione perfetta. ✓ Assistenza diretta ✓ Prezzi trasparenti">
+    <meta name="keywords" content="rivenditori windtre milano, negozi vodafone milano, telefonia business milano, offerte smartphone milano, fibra aziendale milano">
+    <meta name="author" content="TechPartner Milano">
+    <link rel="canonical" href="https://www.techpartnermilano.it">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="TechPartner | I Tuoi Consulenti WindTre & Vodafone a Milano">
+    <meta property="og:description" content="6 negozi a Milano per trovare la tariffa perfetta. Consulenza gratuita, confronto onesto tra operatori, assistenza post-vendita garantita.">
+    <meta property="og:image" content="https://i.ibb.co/L8v8zK8/Tech-Partner-Social.jpg">
+    <meta property="og:url" content="https://www.techpartnermilano.it">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="it_IT">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TechPartner Milano | WindTre & Vodafone">
+    <meta name="twitter:description" content="Il tuo consulente di fiducia per telefonia business e privati">
+    <meta name="twitter:image" content="https://i.ibb.co/L8v8zK8/Tech-Partner-Social.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.ibb.co/D8G5b6s/favicon.png">
+    <link rel="apple-touch-icon" href="https://i.ibb.co/D8G5b6s/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        /* === VARIABILI GLOBALI === */
+        :root {
+            --w3-orange: #FF6900;
+            --w3-orange-light: #ff8c40;
+            --voda-red: #E60000;
+            --voda-red-light: #ff1a1a;
+            --primary-dark: #0A0E27;
+            --primary-blue: #1e3a8a;
+            --secondary: #64748b;
+            --success: #10b981;
+            --background: #ffffff;
+            --background-light: #f8fafc;
+            --background-gray: #f1f5f9;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border: #e2e8f0;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            --radius: 12px;
+            --radius-lg: 16px;
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        /* === RESET E BASE === */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--background);
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* === TIPOGRAFIA === */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--text-primary);
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            font-weight: 800;
+        }
+
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 700;
+        }
+
+        p {
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        /* === HEADER === */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+
+        .header.scrolled {
+            box-shadow: var(--shadow-md);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            margin: 0;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-primary);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-menu a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--w3-orange);
+            transition: width 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            color: var(--w3-orange);
+        }
+
+        .nav-menu a:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .menu-toggle {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text-primary);
+        }
+
+        /* === BOTTONI === */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 28px;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            white-space: nowrap;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--w3-orange), var(--w3-orange-light));
+            color: white;
+            box-shadow: 0 4px 14px 0 rgba(255, 105, 0, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px 0 rgba(255, 105, 0, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--background);
+            color: var(--text-primary);
+            border: 2px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--background-light);
+            border-color: var(--w3-orange);
+            color: var(--w3-orange);
+        }
+
+        .btn-vodafone {
+            background: linear-gradient(135deg, var(--voda-red), var(--voda-red-light));
+            color: white;
+            box-shadow: 0 4px 14px 0 rgba(230, 0, 0, 0.3);
+        }
+
+        .btn-vodafone:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px 0 rgba(230, 0, 0, 0.4);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+            color: white;
+            box-shadow: 0 4px 14px 0 rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-whatsapp:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px 0 rgba(37, 211, 102, 0.4);
+        }
+
+        /* === HERO SECTION === */
+        .hero {
+            padding: 140px 20px 80px;
+            background: linear-gradient(135deg, var(--background-light) 0%, var(--background) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, var(--w3-orange) 0%, transparent 70%);
+            opacity: 0.05;
+            border-radius: 50%;
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-text {
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--success);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            margin-bottom: 20px;
+        }
+
+        .hero h1 .gradient {
+            background: linear-gradient(135deg, var(--w3-orange) 0%, var(--voda-red) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-description {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .hero-trust {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border);
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .trust-item i {
+            color: var(--success);
+            font-size: 1.1rem;
+        }
+
+        .hero-visual {
+            position: relative;
+        }
+
+        .hero-cards {
+            display: grid;
+            gap: 20px;
+        }
+
+        .hero-card {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: 30px;
+            box-shadow: var(--shadow-lg);
+            transition: transform 0.3s ease;
+        }
+
+        .hero-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .hero-card-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero-card-icon.windtre {
+            background: linear-gradient(135deg, #ff6900, #ff8c40);
+            color: white;
+        }
+
+        .hero-card-icon.vodafone {
+            background: linear-gradient(135deg, #e60000, #ff1a1a);
+            color: white;
+        }
+
+        .hero-card h4 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+
+        .hero-card p {
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+        }
+
+        .hero-card-link {
+            color: var(--primary-blue);
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: gap 0.3s ease;
+        }
+
+        .hero-card-link:hover {
+            gap: 10px;
+        }
+
+        /* === PARTNERS BAR === */
+        .partners-bar {
+            background: var(--background-gray);
+            padding: 30px 20px;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .partners-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+
+        .partner-logo {
+            height: 40px;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+
+        .partner-logo:hover {
+            opacity: 1;
+        }
+
+        /* === SEZIONI === */
+        .section {
+            padding: 80px 20px;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 60px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: var(--background-light);
+            color: var(--primary-blue);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            margin-bottom: 20px;
+        }
+
+        .section-description {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+        }
+
+        /* === SERVIZI === */
+        .services {
+            background: var(--background-light);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--w3-orange), var(--voda-red));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            box-shadow: var(--shadow-xl);
+            transform: translateY(-5px);
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+            margin-bottom: 20px;
+        }
+
+        .service-icon.business {
+            background: linear-gradient(135deg, #3b82f6, #1e40af);
+            color: white;
+        }
+
+        .service-icon.private {
+            background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+            color: white;
+        }
+
+        .service-icon.assistance {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .service-description {
+            margin-bottom: 20px;
+        }
+
+        .service-features {
+            list-style: none;
+            margin-bottom: 25px;
+        }
+
+        .service-features li {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-secondary);
+        }
+
+        .service-features i {
+            color: var(--success);
+            font-size: 0.9rem;
+        }
+
+        /* === TESTIMONIALS === */
+        .testimonials {
+            background: white;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background: var(--background-light);
+            border-radius: var(--radius-lg);
+            padding: 30px;
+            position: relative;
+        }
+
+        .testimonial-quote {
+            font-size: 3rem;
+            color: var(--w3-orange);
+            line-height: 1;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-text {
+            font-size: 1.05rem;
+            color: var(--text-primary);
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--w3-orange), var(--voda-red));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .author-info {
+            flex: 1;
+        }
+
+        .author-name {
+            font-weight: 600;
+            color: var(--text-primary);
+            display: block;
+        }
+
+        .author-role {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .testimonial-rating {
+            display: flex;
+            gap: 3px;
+            color: #fbbf24;
+            margin-top: 5px;
+        }
+
+        /* === CTA SECTION === */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-blue) 100%);
+            border-radius: var(--radius-lg);
+            padding: 80px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            color: rgba(255,255,255,0.8);
+            font-size: 1.2rem;
+            margin-bottom: 35px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* === WHATSAPP FLOAT === */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 999;
+        }
+
+        .whatsapp-button {
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.75rem;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .whatsapp-button:hover {
+            transform: scale(1.1);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .whatsapp-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: var(--voda-red);
+            color: white;
+            font-size: 0.7rem;
+            padding: 4px 8px;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+
+        /* === FOOTER === */
+        .footer {
+            background: var(--primary-dark);
+            color: rgba(255,255,255,0.7);
+            padding: 60px 20px 30px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 40px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .footer-column h4 {
+            color: white;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .footer-column a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+            transition: color 0.3s ease;
+        }
+
+        .footer-column a:hover {
+            color: white;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: var(--w3-orange);
+            transform: translateY(-3px);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            font-size: 0.9rem;
+        }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 992px) {
+            .nav-menu {
+                position: fixed;
+                top: 80px;
+                right: -100%;
+                width: 300px;
+                height: calc(100vh - 80px);
+                background: white;
+                flex-direction: column;
+                padding: 40px 30px;
+                gap: 20px;
+                box-shadow: var(--shadow-xl);
+                transition: right 0.3s ease;
+            }
+
+            .nav-menu.active {
+                right: 0;
+            }
+
+            .nav-cta {
+                display: none;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-visual {
+                display: none;
+            }
+
+            .partners-content {
+                gap: 30px;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                padding: 60px 20px;
+            }
+
+            .hero {
+                padding: 120px 20px 60px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.75rem;
+            }
+
+            .hero-description {
+                font-size: 1.05rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .hero-trust {
+                flex-direction: column;
+                gap: 15px;
+                align-items: flex-start;
+            }
+
+            .services-grid,
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-section {
+                padding: 60px 30px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .footer-social {
+                justify-content: center;
+            }
+
+            .whatsapp-float {
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+
+        /* === ANIMAZIONI === */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        .delay-3 { animation-delay: 0.3s; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <img src="https://i.ibb.co/s2R048q/logo-Tech-Partner.png" alt="TechPartner - Rivenditori WindTre Vodafone Milano">
+            </a>
+            
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#servizi">Servizi</a></li>
+                    <li><a href="/business">Business</a></li>
+                    <li><a href="/privati">Privati</a></li>
+                    <li><a href="/negozi">I Nostri Negozi</a></li>
+                    <li><a href="/chi-siamo">Chi Siamo</a></li>
+                    <li><a href="/guide">Guide</a></li>
+                    <li><a href="/contatti">Contatti</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="tel:+393331234567" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i> Chiama Ora
+                </a>
+                <a href="https://wa.me/393331234567" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text animate-on-scroll">
+                <span class="hero-badge">
+                    <i class="fas fa-star"></i> Partner Ufficiale WindTre & Vodafone
+                </span>
+                <h1>Il Tuo Consulente di Fiducia per <span class="gradient">Telefonia Business e Privati</span> a Milano</h1>
+                <p class="hero-description">
+                    Confrontiamo tutte le offerte WindTre e Vodafone per trovare la soluzione perfetta per te. 
+                    6 negozi a Milano, consulenza gratuita, assistenza post-vendita garantita.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="/business" class="btn btn-primary">
+                        <i class="fas fa-briefcase"></i> Soluzioni Business
+                    </a>
+                    <a href="/privati" class="btn btn-vodafone">
+                        <i class="fas fa-home"></i> Offerte Privati
+                    </a>
+                    <a href="#prenota" class="btn btn-secondary">
+                        <i class="fas fa-calendar-check"></i> Prenota Appuntamento
+                    </a>
+                </div>
+
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>15+ anni</strong> di esperienza</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>10.000+</strong> clienti soddisfatti</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span><strong>4.7/5</strong> su Google</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual animate-on-scroll delay-2">
+                <div class="hero-cards">
+                    <div class="hero-card">
+                        <div class="hero-card-icon windtre">
+                            <i class="fas fa-signal"></i>
+                        </div>
+                        <h4>WindTre Business</h4>
+                        <p>Fibra fino a 2.5 Gbps, centralini cloud, flotte aziendali 5G</p>
+                        <a href="/business#windtre" class="hero-card-link">
+                            Scopri le offerte <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="hero-card">
+                        <div class="hero-card-icon vodafone">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>Vodafone Business</h4>
+                        <p>Soluzioni IoT, cybersecurity, backup cloud professionale</p>
+                        <a href="/business#vodafone" class="hero-card-link">
+                            Confronta i piani <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Bar -->
+    <section class="partners-bar">
+        <div class="container partners-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/WINDTRE_Logo_2020.svg" alt="WindTre Partner" class="partner-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Vodafone_logo_2017.svg" alt="Vodafone Partner" class="partner-logo">
+            <img src="https://www.sky.it/static/skyit/img/logo-sky.svg" alt="Sky Partner" class="partner-logo">
+        </div>
+    </section>
+
+    <!-- Servizi Section -->
+    <section class="services section" id="servizi">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-badge">I NOSTRI SERVIZI</span>
+                <h2 class="section-title">Soluzioni Complete per Ogni Esigenza</h2>
+                <p class="section-description">
+                    Dal professionista alla grande azienda, dalla famiglia al singolo. 
+                    Troviamo sempre la tariffa giusta analizzando le tue reali necessità.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll delay-1">
+                    <div class="service-icon business">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="service-title">Business & P.IVA</h3>
+                    <p class="service-description">
+                        Soluzioni integrate per aumentare la produttività e ridurre i costi della tua azienda.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Fibra dedicata fino a 10 Gbps</li>
+                        <li><i class="fas fa-check"></i> Centralini virtuali e VoIP</li>
+                        <li><i class="fas fa-check"></i> Flotte aziendali con gestione centralizzata</li>
+                        <li><i class="fas fa-check"></i> Backup cloud e cybersecurity</li>
+                        <li><i class="fas fa-check"></i> Assistenza prioritaria H24</li>
+                    </ul>
+                    <a href="/business" class="btn btn-primary">Richiedi Analisi Gratuita</a>
+                </div>
+
+                <div class="service-card animate-on-scroll delay-2">
+                    <div class="service-icon private">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="service-title">Privati & Famiglia</h3>
+                    <p class="service-description">
+                        Le migliori offerte per smartphone, fibra casa e intrattenimento per tutta la famiglia.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Smartphone 5G da 7.99€/mese</li>
+                        <li><i class="fas fa-check"></i> Fibra casa da 24.90€/mese</li>
+                        <li><i class="fas fa-check"></i> Pacchetti famiglia con sconti fino al 50%</li>
+                        <li><i class="fas fa-check"></i> Sky, Netflix e NOW inclusi</li>
+                        <li><i class="fas fa-check"></i> Smartphone a rate 0%</li>
+                    </ul>
+                    <a href="/privati" class="btn btn-vodafone">Scopri le Offerte</a>
+                </div>
+
+                <div class="service-card animate-on-scroll delay-3">
+                    <div class="service-icon assistance">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="service-title">Assistenza & Support</h3>
+                    <p class="service-description">
+                        Non ti lasciamo solo dopo l'acquisto. Assistenza completa in negozio e da remoto.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Configurazione dispositivi gratuita</li>
+                        <li><i class="fas fa-check"></i> Riparazione smartphone in 24h</li>
+                        <li><i class="fas fa-check"></i> Trasferimento dati e backup</li>
+                        <li><i class="fas fa-check"></i> Assistenza WhatsApp dedicata</li>
+                        <li><i class="fas fa-check"></i> Cambio operatore senza pensieri</li>
+                    </ul>
+                    <a href="https://wa.me/393331234567" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Chatta con Noi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-badge">COSA DICONO DI NOI</span>
+                <h2 class="section-title">La Soddisfazione dei Nostri Clienti</h2>
+                <p class="section-description">
+                    Oltre 10.000 clienti si affidano a noi. Ecco alcune delle loro esperienze.
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll delay-1">
+                    <span class="testimonial-quote">"</span>
+                    <p class="testimonial-text">
+                        Finalmente qualcuno che non cerca di vendermi l'offerta più cara! 
+                        Mi hanno analizzato i consumi reali e fatto risparmiare 120€ al mese sulla flotta aziendale.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MC</div>
+                        <div class="author-info">
+                            <span class="author-name">Marco Colombo</span>
+                            <span class="author-role">CEO, Colombo Logistics</span>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll delay-2">
+                    <span class="testimonial-quote">"</span>
+                    <p class="testimonial-text">
+                        Servizio eccezionale! Mi hanno aiutato con la portabilità di 4 numeri di famiglia, 
+                        configurato tutti i telefoni e attivato Sky senza farmi perdere un minuto.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LR</div>
+                        <div class="author-info">
+                            <span class="author-name">Laura Rossi</span>
+                            <span class="author-role">Cliente Privato, Milano Centro</span>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll delay-3">
+                    <span class="testimonial-quote">"</span>
+                    <p class="testimonial-text">
+                        Da 3 anni mi affido a loro per l'azienda. Sempre disponibili, anche su WhatsApp. 
+                        Quando ho un problema so che in 10 minuti è risolto. Professionalità top!
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AB</div>
+                        <div class="author-info">
+                            <span class="author-name">Alessandro Bianchi</span>
+                            <span class="author-role">Architetto, Studio Bianchi</span>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+        <div class="container">
+            <div class="cta-section animate-on-scroll">
+                <div class="cta-content">
+                    <h2>Inizia a Risparmiare Oggi Stesso</h2>
+                    <p>
+                        Analisi gratuita dei tuoi consumi, confronto trasparente delle offerte, 
+                        attivazione senza stress. Tutto questo in uno dei nostri 6 negozi a Milano.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="tel:+393331234567" class="btn btn-primary">
+                            <i class="fas fa-phone"></i> Chiama 333 123 4567
+                        </a>
+                        <a href="/negozi" class="btn btn-secondary" style="background: white; color: var(--primary-dark);">
+                            <i class="fas fa-map-marker-alt"></i> Trova Negozio Vicino
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Business Section -->
+    <section class="section" style="background: linear-gradient(135deg, #1e40af, #7c3aed); margin: 80px 0; border-radius: var(--radius-lg);">
+        <div class="container" style="padding: 60px 20px;">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center; color: white;">
+                <h2 style="color: white; margin-bottom: 20px;">📧 Newsletter Business Esclusiva</h2>
+                <p style="font-size: 1.2rem; opacity: 0.95; margin-bottom: 35px;">
+                    Ricevi aggiornamenti su nuove offerte business, guide tecniche e vantaggi fiscali per la tua azienda
+                </p>
+                
+                <form id="newsletterForm" style="display: flex; gap: 15px; max-width: 600px; margin: 0 auto;">
+                    <input type="email" 
+                           placeholder="La tua email aziendale..." 
+                           required 
+                           style="flex: 1; padding: 16px 24px; border: none; border-radius: 50px; font-size: 1rem;">
+                    <button type="submit" class="btn btn-primary" style="background: white; color: var(--primary-blue); padding: 16px 35px;">
+                        Iscriviti Gratis
+                    </button>
+                </form>
+                
+                <p style="font-size: 0.85rem; margin-top: 20px; opacity: 0.8;">
+                    <i class="fas fa-lock"></i> I tuoi dati sono al sicuro. Puoi cancellarti in qualsiasi momento. 
+                    Leggi la nostra <a href="/privacy" style="color: white; text-decoration: underline;">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/393331234567?text=Ciao%20TechPartner!%20Vorrei%20informazioni%20sulle%20vostre%20offerte" class="whatsapp-button" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-badge">Online</span>
+        </a>
+    </div>
+
+    <!-- Cookie Banner -->
+    <div id="cookieBanner" style="position: fixed; bottom: 0; left: 0; right: 0; background: rgba(30, 41, 59, 0.95); backdrop-filter: blur(10px); color: white; padding: 20px; z-index: 9999; display: none;">
+        <div class="container" style="display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;">
+            <div style="flex: 1;">
+                <p style="margin: 0; color: white;">
+                    🍪 Utilizziamo cookie tecnici e di terze parti per migliorare la tua esperienza. 
+                    <a href="/cookie-policy" style="color: var(--w3-orange); text-decoration: underline;">Maggiori informazioni</a>
+                </p>
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <button onclick="acceptCookies()" class="btn btn-primary" style="padding: 10px 20px;">Accetta Tutti</button>
+                <button onclick="customizeCookies()" class="btn btn-secondary" style="background: transparent; border: 1px solid white; color: white; padding: 10px 20px;">Personalizza</button>
+                <button onclick="rejectCookies()" class="btn btn-secondary" style="background: transparent; border: 1px solid white; color: white; padding: 10px 20px;">Solo Necessari</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>TechPartner Milano</h4>
+                    <p style="color: rgba(255,255,255,0.7); margin-top: 10px;">
+                        Partner autorizzato WindTre e Vodafone. 
+                        15 anni di esperienza nel settore delle telecomunicazioni business e consumer.
+                        La nostra missione: semplificare la tua connettività.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/techpartnermilano" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/techpartnermilano" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/company/techpartnermilano" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/393331234567" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Servizi</h4>
+                    <a href="/business">Business & P.IVA</a>
+                    <a href="/privati">Privati & Famiglia</a>
+                    <a href="/business#fibra">Fibra Aziendale</a>
+                    <a href="/privati#mobile">Offerte Mobile</a>
+                    <a href="/contatti">Assistenza e Supporto</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Azienda</h4>
+                    <a href="/chi-siamo">Chi Siamo</a>
+                    <a href="/negozi">I Nostri Negozi</a>
+                    <a href="/guide">Guide e Consigli</a>
+                    <a href="/contatti">Contatti</a>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Informazioni Legali</h4>
+                    <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem; line-height: 1.8;">
+                        <strong>TechPartner S.r.l.</strong><br>
+                        P.IVA: 12345678901<br>
+                        REA: MI-1234567<br>
+                        Capitale Sociale: €50.000 i.v.<br>
+                        <br>
+                        <strong>Sede Legale:</strong><br>
+                        Via Dante, 15<br>
+                        20121 Milano (MI)<br>
+                        <br>
+                        📧 info@techpartnermilano.it<br>
+                        📧 pec@pec.techpartnermilano.it<br>
+                        ☎️ +39 333 123 4567
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechPartner S.r.l. - Tutti i diritti riservati</p>
+                <p style="margin-top: 10px;">
+                    <a href="/privacy" style="color: rgba(255,255,255,0.7);">Privacy Policy</a> | 
+                   <a href="/cookie-policy" style="color: rgba(255,255,255,0.7);">Cookie Policy</a> | 
+                   <a href="/termini-condizioni" style="color: rgba(255,255,255,0.7);">Termini e Condizioni</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('navMenu').classList.toggle('active');
+        });
+
+        // Header Scroll Effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Newsletter Form
+        document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const email = this.querySelector('input[type="email"]').value;
+            
+            // Qui andrebbe l'integrazione con il tuo backend
+            // Per ora simuliamo il successo
+            alert('Grazie per l\'iscrizione! Riceverai una email di conferma a: ' + email);
+            
+            // Reset form
+            this.reset();
+            
+            // Track conversion (Google Analytics/Facebook Pixel)
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'newsletter_signup', {
+                    'event_category': 'engagement',
+                    'event_label': 'business_newsletter'
+                });
+            }
+        });
+
+        // Cookie Management
+        function checkCookieConsent() {
+            const consent = localStorage.getItem('cookieConsent');
+            if (!consent) {
+                document.getElementById('cookieBanner').style.display = 'block';
+            }
+        }
+
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'all');
+            localStorage.setItem('cookieConsentDate', new Date().toISOString());
+            document.getElementById('cookieBanner').style.display = 'none';
+            loadAnalytics();
+        }
+
+        function customizeCookies() {
+            window.location.href = '/cookie-policy#customize';
+        }
+
+        function rejectCookies() {
+            localStorage.setItem('cookieConsent', 'necessary');
+            localStorage.setItem('cookieConsentDate', new Date().toISOString());
+            document.getElementById('cookieBanner').style.display = 'none';
+        }
+
+        function loadAnalytics() {
+            // Load Google Analytics
+            const gaScript = document.createElement('script');
+            gaScript.async = true;
+            gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID';
+            document.head.appendChild(gaScript);
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GA_MEASUREMENT_ID');
+
+            // Load Facebook Pixel
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', 'YOUR_PIXEL_ID');
+            fbq('track', 'PageView');
+        }
+
+        // Check cookie consent on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            checkCookieConsent();
+            
+            // If consent already given, load analytics
+            const consent = localStorage.getItem('cookieConsent');
+            if (consent === 'all') {
+                loadAnalytics();
+            }
+        });
+
+        // Animate on Scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.animation = entry.target.style.animation || 'fadeInUp 0.8s ease forwards';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Schema.org Structured Data
+        const structuredData = {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "TechPartner Milano",
+            "description": "Partner autorizzato WindTre e Vodafone. 6 negozi a Milano per telefonia business e privati.",
+            "url": "https://www.techpartnermilano.it",
+            "telephone": "+393331234567",
+            "email": "info@techpartnermilano.it",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Via Dante, 15",
+                "addressLocality": "Milano",
+                "postalRegion": "MI",
+                "postalCode": "20121",
+                "addressCountry": "IT"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 45.4642,
+                "longitude": 9.1900
+            },
+            "openingHours": "Mo-Sa 09:00-19:30",
+            "priceRange": "€€",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.7",
+                "reviewCount": "285"
+            },
+            "sameAs": [
+                "https://facebook.com/techpartnermilano",
+                "https://instagram.com/techpartnermilano",
+                "https://linkedin.com/company/techpartnermilano"
+            ]
+        };
+
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.text = JSON.stringify(structuredData);
+        document.head.appendChild(script);
+    </script>
+
+</body>
+</html>
