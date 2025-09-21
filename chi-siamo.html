@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Chi Siamo | TechPartner Milano - La Nostra Storia dal 2009</title>
+    <meta name="description" content="Scopri TechPartner: 15 anni di esperienza, 6 negozi a Milano, oltre 10.000 clienti soddisfatti. Il tuo partner di fiducia per WindTre e Vodafone business e privati.">
+    <meta name="keywords" content="techpartner milano chi siamo, rivenditori windtre milano storia, negozi vodafone milano team">
+    <link rel="canonical" href="https://www.techpartnermilano.it/chi-siamo">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="La Storia di TechPartner Milano | Dal 2009 al Tuo Servizio">
+    <meta property="og:description" content="15 anni di esperienza, 6 negozi, un unico obiettivo: semplificare la tua connettività con consulenza onesta e professionale.">
+    <meta property="og:image" content="https://i.ibb.co/L8v8zK8/Tech-Partner-Team.jpg">
+    <meta property="og:url" content="https://www.techpartnermilano.it/chi-siamo">
+    
+    <!-- Styles (inheriting from homepage) -->
+    <link rel="icon" type="image/png" href="https://i.ibb.co/D8G5b6s/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        /* === INHERIT BASE STYLES FROM HOMEPAGE === */
+        :root {
+            --w3-orange: #FF6900;
+            --w3-orange-light: #ff8c40;
+            --voda-red: #E60000;
+            --voda-red-light: #ff1a1a;
+            --primary-dark: #0A0E27;
+            --primary-blue: #1e3a8a;
+            --secondary: #64748b;
+            --success: #10b981;
+            --background: #ffffff;
+            --background-light: #f8fafc;
+            --background-gray: #f1f5f9;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border: #e2e8f0;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            --radius: 12px;
+            --radius-lg: 16px;
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--background);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--text-primary);
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            font-weight: 800;
+        }
+
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+        }
+
+        /* Header (same as homepage) */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            margin: 0;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-primary);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            color: var(--w3-orange);
+        }
+
+        .nav-cta {
+            display: flex;
+            gap: 15px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 28px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--w3-orange), var(--w3-orange-light));
+            color: white;
+            box-shadow: 0 4px 14px 0 rgba(255, 105, 0, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px 0 rgba(255, 105, 0, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--background);
+            color: var(--text-primary);
+            border: 2px solid var(--border);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+            color: white;
+        }
+
+        /* === PAGE HERO === */
+        .page-hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-blue) 100%);
+            padding: 140px 20px 80px;
+            text-align: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .page-hero h1 {
+            color: white;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .page-hero .lead {
+            font-size: 1.3rem;
+            color: rgba(255,255,255,0.9);
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* === STORY SECTION === */
+        .story-section {
+            padding: 80px 20px;
+            background: var(--background);
+        }
+
+        .story-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+
+        .story-text h2 {
+            margin-bottom: 25px;
+        }
+
+        .story-text p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .highlight-text {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            border-left: 4px solid var(--w3-orange);
+            padding-left: 20px;
+            margin: 30px 0;
+        }
+
+        .story-visual {
+            position: relative;
+        }
+
+        .story-image {
+            width: 100%;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .story-stats {
+            position: absolute;
+            bottom: -30px;
+            left: 30px;
+            right: 30px;
+            background: white;
+            border-radius: var(--radius);
+            padding: 25px;
+            box-shadow: var(--shadow-lg);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            text-align: center;
+        }
+
+        .stat-item h4 {
+            font-size: 2rem;
+            color: var(--w3-orange);
+            margin-bottom: 5px;
+        }
+
+        .stat-item p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* === VALUES SECTION === */
+        .values-section {
+            padding: 80px 20px;
+            background: var(--background-light);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 60px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: var(--w3-orange);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .value-card {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .value-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--w3-orange);
+        }
+
+        .value-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, var(--w3-orange), var(--voda-red));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .value-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .value-card p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* === TEAM SECTION === */
+        .team-section {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .team-member {
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+
+        .member-photo {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--w3-orange), var(--voda-red));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+            font-weight: 700;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .member-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .member-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .member-role {
+            color: var(--w3-orange);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .member-bio {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* === TIMELINE === */
+        .timeline-section {
+            padding: 80px 20px;
+            background: var(--background-light);
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(180deg, var(--w3-orange), var(--voda-red));
+        }
+
+        .timeline-item {
+            padding: 20px 0;
+            position: relative;
+            width: 50%;
+        }
+
+        .timeline-item:nth-child(odd) {
+            left: 0;
+            padding-right: 40px;
+            text-align: right;
+        }
+
+        .timeline-item:nth-child(even) {
+            left: 50%;
+            padding-left: 40px;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: white;
+            border: 4px solid var(--w3-orange);
+            border-radius: 50%;
+            top: 30px;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-dot {
+            right: -10px;
+        }
+
+        .timeline-item:nth-child(even) .timeline-dot {
+            left: -10px;
+        }
+
+        .timeline-content {
+            background: white;
+            padding: 25px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+        }
+
+        .timeline-year {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--w3-orange);
+            margin-bottom: 10px;
+        }
+
+        .timeline-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .timeline-description {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* === CERTIFICATIONS === */
+        .certifications-section {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .certification-item {
+            text-align: center;
+        }
+
+        .certification-logo {
+            height: 80px;
+            margin-bottom: 15px;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .certification-item:hover .certification-logo {
+            opacity: 1;
+        }
+
+        .certification-name {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* === CTA === */
+        .cta-section {
+            background: linear-gradient(135deg, var(--w3-orange), var(--voda-red));
+            padding: 80px 40px;
+            border-radius: var(--radius-lg);
+            text-align: center;
+            color: white;
+            margin: 80px 20px;
+        }
+
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.2rem;
+            margin-bottom: 35px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Footer (same as homepage) */
+        .footer {
+            background: var(--primary-dark);
+            color: rgba(255,255,255,0.7);
+            padding: 60px 20px 30px;
+        }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 992px) {
+            .nav-menu, .nav-cta {
+                display: none;
+            }
+
+            .story-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .story-stats {
+                position: static;
+                margin-top: 30px;
+            }
+
+            .timeline::before {
+                left: 30px;
+            }
+
+            .timeline-item {
+                width: 100%;
+                padding-left: 80px !important;
+                padding-right: 20px !important;
+                left: 0 !important;
+                text-align: left !important;
+            }
+
+            .timeline-dot {
+                left: 20px !important;
+                right: auto !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .page-hero {
+                padding: 120px 20px 60px;
+            }
+
+            .page-hero h1 {
+                font-size: 2rem;
+            }
+
+            .page-hero .lead {
+                font-size: 1.1rem;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline {
+                padding-left: 0;
+            }
+
+            .timeline::before {
+                left: 10px;
+            }
+
+            .timeline-item {
+                padding-left: 50px !important;
+            }
+
+            .timeline-dot {
+                left: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header (same as homepage) -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <img src="https://i.ibb.co/s2R048q/logo-Tech-Partner.png" alt="TechPartner">
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/business">Business</a></li>
+                    <li><a href="/privati">Privati</a></li>
+                    <li><a href="/negozi">I Nostri Negozi</a></li>
+                    <li><a href="/chi-siamo" class="active">Chi Siamo</a></li>
+                    <li><a href="/guide">Guide</a></li>
+                    <li><a href="/contatti">Contatti</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="tel:+393331234567" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i> Chiama
+                </a>
+                <a href="https://wa.me/393331234567" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>La Nostra Storia, I Tuoi Vantaggi</h1>
+            <p class="lead">
+                Dal 2009 siamo il punto di riferimento per la telefonia business e privati a Milano. 
+                15 anni di esperienza, 6 negozi, un unico obiettivo: semplificare la tua connettività.
+            </p>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-section">
+        <div class="container">
+            <div class="story-content">
+                <div class="story-text">
+                    <h2>Una Storia di Fiducia e Innovazione</h2>
+                    <p>
+                        TechPartner nasce nel 2009 da un'idea semplice ma rivoluzionaria: 
+                        offrire consulenza telefonica onesta, trasparente e personalizzata in un mercato 
+                        dominato da venditori aggressivi e offerte poco chiare.
+                    </p>
+                    <p>
+                        Fondati da un team di professionisti con oltre 20 anni di esperienza nel settore 
+                        delle telecomunicazioni, abbiamo costruito la nostra reputazione un cliente alla volta, 
+                        basandoci su tre pilastri fondamentali: competenza, trasparenza e assistenza post-vendita.
+                    </p>
+                    
+                    <div class="highlight-text">
+                        "Non vendiamo SIM, costruiamo relazioni a lungo termine basate sulla fiducia reciproca"
+                    </div>
+                    
+                    <p>
+                        Oggi, con 6 negozi strategicamente posizionati a Milano e provincia, serviamo 
+                        oltre 10.000 clienti tra aziende e privati, mantenendo sempre lo stesso approccio 
+                        consulenziale che ci ha resi leader nel settore.
+                    </p>
+                    <p>
+                        Come partner autorizzati WindTre e Vodafone, possiamo confrontare oggettivamente 
+                        le migliori offerte del mercato, garantendo sempre la soluzione più vantaggiosa 
+                        per le tue specifiche esigenze.
+                    </p>
+                </div>
+
+                <div class="story-visual">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&h=400&fit=crop" 
+                         alt="Team TechPartner Milano" 
+                         class="story-image">
+                    <div class="story-stats">
+                        <div class="stat-item">
+                            <h4>15+</h4>
+                            <p>Anni di Esperienza</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>10k+</h4>
+                            <p>Clienti Soddisfatti</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>4.7/5</h4>
+                            <p>Rating Google</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">I NOSTRI VALORI</span>
+                <h2>Cosa Ci Rende Diversi</h2>
+                <p>I principi che guidano ogni nostra decisione e consulenza</p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Trasparenza Totale</h3>
+                    <p>
+                        Nessun costo nascosto, nessuna clausola in piccolo. 
+                        Ti spieghiamo ogni dettaglio del contratto prima che tu firmi, 
+                        garantendo che tu sappia esattamente cosa stai acquistando.
+                    </p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Consulenza Personalizzata</h3>
+                    <p>
+                        Non esiste una soluzione uguale per tutti. Analizziamo i tuoi consumi 
+                        reali, le tue esigenze specifiche e il tuo budget per trovare 
+                        l'offerta perfetta per te.
+                    </p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Competenza Certificata</h3>
+                    <p>
+                        Il nostro team è costantemente formato e certificato da WindTre 
+                        e Vodafone. Siamo sempre aggiornati sulle ultime tecnologie 
+                        e offerte del mercato.
+                    </p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Assistenza Continua</h3>
+                    <p>
+                        Il nostro lavoro non finisce con la vendita. Siamo sempre 
+                        disponibili per assistenza tecnica, modifiche contrattuali 
+                        o qualsiasi problema tu possa incontrare.
+                    </p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Presenza Territoriale</h3>
+                    <p>
+                        Con 6 negozi distribuiti strategicamente a Milano, siamo sempre 
+                        vicini a te. Puoi venire a trovarci senza appuntamento o 
+                        prenotare una consulenza dedicata.
+                    </p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Confronto Onesto</h3>
+                    <p>
+                        Come partner multi-brand, confrontiamo oggettivamente WindTre 
+                        e Vodafone senza favoritismi, consigliandoti sempre l'operatore 
+                        più vantaggioso per le tue esigenze.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">IL NOSTRO TEAM</span>
+                <h2>Le Persone Dietro il Successo</h2>
+                <p>Un team di professionisti appassionati, sempre al tuo servizio</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">GR</div>
+                    <h4 class="member-name">Giuseppe Rossi</h4>
+                    <p class="member-role">CEO & Founder</p>
+                    <p class="member-bio">
+                        20 anni nel settore TLC. Ha fondato TechPartner con la visione 
+                        di creare un'esperienza cliente diversa nel mondo della telefonia.
+                    </p>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-photo">MB</div>
+                    <h4 class="member-name">Maria Bianchi</h4>
+                    <p class="member-role">Direttore Commerciale</p>
+                    <p class="member-bio">
+                        Esperta di soluzioni business, gestisce i rapporti con le aziende 
+                        e coordina il team di consulenti specializzati.
+                    </p>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-photo">LC</div>
+                    <h4 class="member-name">Luca Colombo</h4>
+                    <p class="member-role">Responsabile Tecnico</p>
+                    <p class="member-bio">
+                        Certificato WindTre e Vodafone, supervisiona le installazioni 
+                        e l'assistenza tecnica per business e privati.
+                    </p>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-photo">SF</div>
+                    <h4 class="member-name">Sara Ferrari</h4>
+                    <p class="member-role">Customer Success Manager</p>
+                    <p class="member-bio">
+                        Si assicura che ogni cliente riceva il supporto necessario 
+                        prima, durante e dopo l'attivazione dei servizi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">LA NOSTRA CRESCITA</span>
+                <h2>15 Anni di Evoluzione Continua</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2009</div>
+                        <div class="timeline-title">La Nascita</div>
+                        <p class="timeline-description">
+                            Apriamo il primo negozio in Via Dante. 
+                            Inizia l'avventura con WindTre come primo partner.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2012</div>
+                        <div class="timeline-title">Partnership Vodafone</div>
+                        <p class="timeline-description">
+                            Diventiamo partner autorizzati Vodafone, 
+                            offrendo ai clienti maggiore scelta e confronto.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2015</div>
+                        <div class="timeline-title">Espansione</div>
+                        <p class="timeline-description">
+                            Apriamo il terzo e quarto negozio. 
+                            Superiamo i 5.000 clienti attivi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2019</div>
+                        <div class="timeline-title">Digital Innovation</div>
+                        <p class="timeline-description">
+                            Lanciamo i servizi digitali: consulenza video, 
+                            WhatsApp Business, configurazione da remoto.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <div class="timeline-title">Leader di Mercato</div>
+                        <p class="timeline-description">
+                            6 negozi operativi, oltre 10.000 clienti. 
+                            Diventiamo top partner WindTre e Vodafone a Milano.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025</div>
+                        <div class="timeline-title">Il Futuro</div>
+                        <p class="timeline-description">
+                            Continuiamo a innovare con 5G, IoT e soluzioni 
+                            cloud per accompagnare la trasformazione digitale.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="certifications-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">CERTIFICAZIONI E PARTNERSHIP</span>
+                <h2>Riconoscimenti Ufficiali</h2>
+            </div>
+
+            <div class="certifications-grid">
+                <div class="certification-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/WINDTRE_Logo_2020.svg" 
+                         alt="WindTre Partner" 
+                         class="certification-logo">
+                    <p class="certification-name">Partner Gold WindTre</p>
+                </div>
+
+                <div class="certification-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Vodafone_logo_2017.svg" 
+                         alt="Vodafone Partner" 
+                         class="certification-logo">
+                    <p class="certification-name">Vodafone Business Partner</p>
+                </div>
+
+                <div class="certification-item">
+                    <img src="https://www.sky.it/static/skyit/img/logo-sky.svg" 
+                         alt="Sky Partner" 
+                         class="certification-logo">
+                    <p class="certification-name">Sky Expert</p>
+                </div>
+
+                <div class="certification-item">
+                    <div style="display: flex; align-items: center; justify-content: center; height: 80px;">
+                        <div style="background: #fbbc04; color: white; padding: 15px 25px; border-radius: 8px; font-weight: 700; font-size: 1.2rem;">
+                            4.7 ★
+                        </div>
+                    </div>
+                    <p class="certification-name">Google Top Rated 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="container">
+        <div class="cta-section">
+            <h2>Pronto a Fare la Scelta Giusta?</h2>
+            <p>
+                Vieni a conoscerci di persona in uno dei nostri negozi 
+                o prenota una consulenza gratuita senza impegno.
+            </p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="/negozi" class="btn btn-primary" style="background: white; color: var(--w3-orange);">
+                    <i class="fas fa-map-marker-alt"></i> Trova il Negozio più Vicino
+                </a>
+                <a href="/contatti" class="btn btn-primary" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px);">
+                    <i class="fas fa-calendar-check"></i> Prenota Consulenza
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as homepage) -->
+    <footer class="footer">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 40px; margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                <div>
+                    <h4 style="color: white; margin-bottom: 20px;">TechPartner Milano</h4>
+                    <p style="color: rgba(255,255,255,0.7);">
+                        Partner autorizzato WindTre e Vodafone. 
+                        15 anni di esperienza nel settore delle telecomunicazioni.
+                    </p>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 20px;">Servizi</h4>
+                    <a href="/business" style="color: rgba(255,255,255,0.7); text-decoration: none; display: block; padding: 5px 0;">Business</a>
+                    <a href="/privati" style="color: rgba(255,255,255,0.7); text-decoration: none; display: block; padding: 5px 0;">Privati</a>
+                    <a href="/negozi" style="color: rgba(255,255,255,0.7); text-decoration: none; display: block; padding: 5px 0;">Negozi</a>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 20px;">Azienda</h4>
+                    <a href="/chi-siamo" style="color: rgba(255,255,255,0.7); text-decoration: none; display: block; padding: 5px 0;">Chi Siamo</a>
+                    <a href="/guide" style="color: rgba(255,255,255,0.7); text-decoration: none; display: block; padding: 5px 0;">Guide</a>
+                    <a href="/contatti" style="color: rgba(255,255,255,0.7); text-decoration: none; display: block; padding: 5px 0;">Contatti</a>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 20px;">Informazioni Legali</h4>
+                    <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+                        TechPartner S.r.l.<br>
+                        P.IVA: 12345678901<br>
+                        Via Dante, 15 - 20121 Milano
+                    </p>
+                </div>
+            </div>
+            <p style="text-align: center;">
+                &copy; 2025 TechPartner S.r.l. - Tutti i diritti riservati | 
+                <a href="/privacy" style="color: rgba(255,255,255,0.7);">Privacy Policy</a> | 
+                <a href="/cookie-policy" style="color: rgba(255,255,255,0.7);">Cookie Policy</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.value-card, .team-member, .timeline-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
