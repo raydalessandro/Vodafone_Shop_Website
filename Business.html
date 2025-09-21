@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Soluzioni Business WindTre e Vodafone | TechPartner Milano - Telefonia Aziendale</title>
+    <meta name="description" content="Offerte telefonia business WindTre e Vodafone per aziende e P.IVA a Milano. Fibra dedicata fino a 10 Gbps, centralini cloud, flotte 5G. Analisi gratuita e risparmio garantito fino al 40%.">
+    <meta name="keywords" content="windtre business milano, vodafone business milano, telefonia aziendale milano, fibra business milano, centralino virtuale milano, flotte aziendali 5g">
+    <link rel="canonical" href="https://www.techpartnermilano.it/business">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Telefonia Business Milano | Risparmia fino al 40% con TechPartner">
+    <meta property="og:description" content="Soluzioni integrate WindTre e Vodafone per aziende. Analisi gratuita dei consumi, confronto trasparente, assistenza dedicata H24.">
+    <meta property="og:image" content="https://i.ibb.co/business-hero.jpg">
+    <meta property="og:url" content="https://www.techpartnermilano.it/business">
+    
+    <!-- Styles -->
+    <link rel="icon" type="image/png" href="https://i.ibb.co/D8G5b6s/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        /* === VARIABLES === */
+        :root {
+            --w3-orange: #FF6900;
+            --w3-orange-light: #ff8c40;
+            --voda-red: #E60000;
+            --voda-red-light: #ff1a1a;
+            --primary-dark: #0A0E27;
+            --primary-blue: #1e3a8a;
+            --secondary: #64748b;
+            --success: #10b981;
+            --info: #0ea5e9;
+            --warning: #f59e0b;
+            --background: #ffffff;
+            --background-light: #f8fafc;
+            --background-gray: #f1f5f9;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border: #e2e8f0;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+            --radius: 12px;
+            --radius-lg: 16px;
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        /* === BASE === */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--background);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--text-primary);
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            font-weight: 800;
+        }
+
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+        }
+
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            margin: 0;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-primary);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-menu a:hover,
+        .nav-menu a.active {
+            color: var(--w3-orange);
+        }
+
+        .nav-cta {
+            display: flex;
+            gap: 15px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 28px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            white-space: nowrap;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--w3-orange), var(--w3-orange-light));
+            color: white;
+            box-shadow: 0 4px 14px 0 rgba(255, 105, 0, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px 0 rgba(255, 105, 0, 0.4);
+        }
+
+        .btn-vodafone {
+            background: linear-gradient(135deg, var(--voda-red), var(--voda-red-light));
+            color: white;
+            box-shadow: 0 4px 14px 0 rgba(230, 0, 0, 0.3);
+        }
+
+        .btn-secondary {
+            background: var(--background);
+            color: var(--text-primary);
+            border: 2px solid var(--border);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+            color: white;
+        }
+
+        /* === BUSINESS HERO === */
+        .business-hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, #1e40af 100%);
+            padding: 140px 20px 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .business-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="white" stroke-width="0.5" opacity="0.1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grid)"/></svg>');
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .business-hero h1 {
+            color: white;
+            margin-bottom: 25px;
+        }
+
+        .hero-description {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.25rem;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+
+        .trust-indicators {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+            padding: 40px;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: var(--radius-lg);
+        }
+
+        .trust-item {
+            text-align: center;
+        }
+
+        .trust-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: white;
+            display: block;
+        }
+
+        .trust-label {
+            color: rgba(255,255,255,0.8);
+            font-size: 0.95rem;
+        }
+
+        /* === COMPARISON TABLE === */
+        .comparison-section {
+            padding: 80px 20px;
+            background: var(--background-light);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 60px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: var(--info);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .operator-card {
+            background: white;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+        }
+
+        .operator-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .operator-header {
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .operator-header.windtre {
+            background: linear-gradient(135deg, var(--w3-orange), var(--w3-orange-light));
+        }
+
+        .operator-header.vodafone {
+            background: linear-gradient(135deg, var(--voda-red), var(--voda-red-light));
+        }
+
+        .operator-logo {
+            height: 40px;
+            margin-bottom: 15px;
+        }
+
+        .operator-tagline {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        .plan-list {
+            padding: 30px;
+        }
+
+        .plan-item {
+            padding: 20px;
+            margin-bottom: 15px;
+            background: var(--background-light);
+            border-radius: var(--radius);
+            transition: all 0.3s ease;
+        }
+
+        .plan-item:hover {
+            background: var(--background-gray);
+            transform: translateX(5px);
+        }
+
+        .plan-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .plan-features {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .plan-price {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--success);
+        }
+
+        .plan-price small {
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: var(--text-secondary);
+        }
+
+        /* === SOLUTIONS GRID === */
+        .solutions-section {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .solutions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .solution-card {
+            background: var(--background-light);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .solution-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, var(--w3-orange), var(--voda-red));
+        }
+
+        .solution-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--w3-orange);
+        }
+
+        .solution-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--primary-blue), var(--info));
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.75rem;
+            margin-bottom: 25px;
+        }
+
+        .solution-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .solution-description {
+            color: var(--text-secondary);
+            margin-bottom: 25px;
+            line-height: 1.7;
+        }
+
+        .solution-features {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        .solution-features li {
+            padding: 10px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            color: var(--text-secondary);
+        }
+
+        .solution-features i {
+            color: var(--success);
+            margin-top: 3px;
+        }
+
+        /* === PROCESS SECTION === */
+        .process-section {
+            padding: 80px 20px;
+            background: var(--background-light);
+        }
+
+        .process-timeline {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .process-step {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 40px;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .process-content {
+            background: white;
+            padding: 30px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+
+        .process-content.left {
+            text-align: right;
+        }
+
+        .process-number {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--w3-orange), var(--voda-red));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: 800;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .process-title {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: var(--primary-dark);
+        }
+
+        .process-description {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* === CALCULATOR === */
+        .calculator-section {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .calculator-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--background-light);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .calculator-form {
+            display: grid;
+            gap: 25px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+        }
+
+        .form-input,
+        .form-select {
+            padding: 12px 16px;
+            border: 2px solid var(--border);
+            border-radius: var(--radius);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .form-input:focus,
+        .form-select:focus {
+            outline: none;
+            border-color: var(--w3-orange);
+            box-shadow: 0 0 0 3px rgba(255, 105, 0, 0.1);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .calculator-result {
+            margin-top: 30px;
+            padding: 30px;
+            background: linear-gradient(135deg, var(--success), #059669);
+            border-radius: var(--radius);
+            color: white;
+            text-align: center;
+            display: none;
+        }
+
+        .calculator-result.show {
+            display: block;
+        }
+
+        .savings-amount {
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 20px 0;
+        }
+
+        /* === TESTIMONIALS === */
+        .testimonials-section {
+            padding: 80px 20px;
+            background: var(--background-light);
+        }
+
+        .testimonials-slider {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .testimonial-business {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: 50px;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+        }
+
+        .testimonial-quote-icon {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            font-size: 4rem;
+            color: var(--w3-orange);
+            opacity: 0.2;
+        }
+
+        .testimonial-text {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .author-avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-blue), var(--info));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .author-details {
+            flex: 1;
+        }
+
+        .author-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .author-company {
+            color: var(--text-secondary);
+        }
+
+        .author-savings {
+            color: var(--success);
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        /* === FAQ === */
+        .faq-section {
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--background-light);
+            border-radius: var(--radius);
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .faq-question {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .faq-question i {
+            color: var(--w3-orange);
+            margin-top: 3px;
+        }
+
+        .faq-answer {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            padding-left: 30px;
+        }
+
+        /* === CTA === */
+        .cta-business {
+            margin: 80px auto;
+            max-width: 1000px;
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary-blue));
+            border-radius: var(--radius-lg);
+            padding: 60px 40px;
+            text-align: center;
+            color: white;
+            box-shadow: var(--shadow-xl);
+        }
+
+        .cta-business h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .cta-business p {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.2rem;
+            margin-bottom: 35px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--primary-dark);
+            color: rgba(255,255,255,0.7);
+            padding: 60px 20px 30px;
+            text-align: center;
+        }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 992px) {
+            .nav-menu, .nav-cta {
+                display: none;
+            }
+
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .process-step {
+                grid-template-columns: auto 1fr;
+                gap: 30px;
+            }
+
+            .process-content.left {
+                text-align: left;
+            }
+
+            .process-content:first-child {
+                order: 2;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .business-hero {
+                padding: 120px 20px 80px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .hero-description {
+                font-size: 1.1rem;
+            }
+
+            .trust-indicators {
+                grid-template-columns: 1fr;
+                padding: 30px 20px;
+            }
+
+            .solutions-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .calculator-container {
+                padding: 30px 20px;
+            }
+
+            .testimonial-business {
+                padding: 30px;
+            }
+
+            .testimonial-text {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <img src="https://i.ibb.co/s2R048q/logo-Tech-Partner.png" alt="TechPartner">
+            </a>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/business" class="active">Business</a></li>
+                    <li><a href="/privati">Privati</a></li>
+                    <li><a href="/negozi">I Nostri Negozi</a></li>
+                    <li><a href="/chi-siamo">Chi Siamo</a></li>
+                    <li><a href="/guide">Guide</a></li>
+                    <li><a href="/contatti">Contatti</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="tel:+393331234567" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i> Consulenza Gratuita
+                </a>
+                <a href="https://wa.me/393331234567" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Business Hero -->
+    <section class="business-hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-trophy"></i> Top Business Partner 2024
+                </span>
+                <h1>Riduci i Costi di Telefonia Aziendale fino al 40%</h1>
+                <p class="hero-description">
+                    Confrontiamo WindTre Business e Vodafone Business per trovare la soluzione perfetta 
+                    per la tua azienda. Analisi gratuita dei consumi, confronto trasparente, 
+                    assistenza dedicata H24.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#calculator" class="btn btn-primary" style="background: white; color: var(--primary-blue);">
+                        <i class="fas fa-calculator"></i> Calcola il Tuo Risparmio
+                    </a>
+                    <a href="#confronto" class="btn btn-primary" style="background: rgba(255,255,255,0.2); backdrop-filter: blur(10px);">
+                        <i class="fas fa-balance-scale"></i> Confronta le Offerte
+                    </a>
+                </div>
+
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <span class="trust-number">500+</span>
+                        <span class="trust-label">Aziende Clienti</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">€2.5M</span>
+                        <span class="trust-label">Risparmiati dai Clienti</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">24/7</span>
+                        <span class="trust-label">Assistenza Dedicata</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">98%</span>
+                        <span class="trust-label">Retention Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison-section" id="confronto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">CONFRONTO OPERATORI</span>
+                <h2>WindTre Business vs Vodafone Business</h2>
+                <p>Analizziamo oggettivamente i punti di forza di ogni operatore per consigliarti la soluzione migliore</p>
+            </div>
+
+            <div class="comparison-grid">
+                <!-- WindTre Card -->
+                <div class="operator-card">
+                    <div class="operator-header windtre">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/WINDTRE_Logo_2020.svg" 
+                             alt="WindTre Business" 
+                             class="operator-logo" 
+                             style="filter: brightness(0) invert(1);">
+                        <p class="operator-tagline">Leader nella convenienza business</p>
+                    </div>
+                    <div class="plan-list">
+                        <div class="plan-item">
+                            <div class="plan-name">Professional Unlimited 5G</div>
+                            <div class="plan-features">Giga illimitati, minuti illimitati, 500 SMS</div>
+                            <div class="plan-price">€14.99 <small>/mese per SIM</small></div>
+                        </div>
+                        <div class="plan-item">
+                            <div class="plan-name">Fibra Top 2.5 Gbps</div>
+                            <div class="plan-features">Fibra FTTH fino a 2.5 Gbps, IP statico incluso</div>
+                            <div class="plan-price">€29.90 <small>/mese</small></div>
+                        </div>
+                        <div class="plan-item">
+                            <div class="plan-name">Centralino Cloud Pro</div>
+                            <div class="plan-features">Fino a 100 interni, app mobile, registrazione</div>
+                            <div class="plan-price">€49.90 <small>/mese</small></div>
+                        </div>
+                        <div class="plan-item">
+                            <div class="plan-name">Fleet Management</div>
+                            <div class="plan-features">Gestione centralizzata flotte, controllo costi</div>
+                            <div class="plan-price">€2.00 <small>/mese per SIM</small></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vodafone Card -->
+                <div class="operator-card">
+                    <div class="operator-header vodafone">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Vodafone_logo_2017.svg" 
+                             alt="Vodafone Business" 
+                             class="operator-logo" 
+                             style="filter: brightness(0) invert(1);">
+                        <p class="operator-tagline">Eccellenza in tecnologia e servizi</p>
+                    </div>
+                    <div class="plan-list">
+                        <div class="plan-item">
+                            <div class="plan-name">Business Unlimited Black</div>
+                            <div class="plan-features">5G priority, roaming UE/USA, hotspot 100GB</div>
+                            <div class="plan-price">€19.99 <small>/mese per SIM</small></div>
+                        </div>
+                        <div class="plan-item">
+                            <div class="plan-name">Fibra Business Pro</div>
+                            <div class="plan-features">Fibra fino a 10 Gbps, backup 4G automatico</div>
+                            <div class="plan-price">€39.90 <small>/mese</small></div>
+                        </div>
+                        <div class="plan-item">
+                            <div class="plan-name">One Net Business</div>
+                            <div class="plan-features">PBX cloud avanzato, CRM integration, analytics</div>
+                            <div class="plan-price">€69.90 <small>/mese</small></div>
+                        </div>
+                        <div class="plan-item">
+                            <div class="plan-name">IoT & Smart Working</div>
+                            <div class="plan-features">Soluzioni IoT integrate, VPN dedicata, sicurezza</div>
+                            <div class="plan-price">Su misura</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/contatti" class="btn btn-primary">
+                    <i class="fas fa-comments"></i> Richiedi Confronto Personalizzato
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Grid -->
+    <section class="solutions-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">LE NOSTRE SOLUZIONI</span>
+                <h2>Servizi Business Completi</h2>
+                <p>Dalla connettività alla sicurezza, copriamo ogni esigenza della tua azienda</p>
+            </div>
+
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3 class="solution-title">Connettività Aziendale</h3>
+                    <p class="solution-description">
+                        Fibra dedicata fino a 10 Gbps con SLA garantito e backup automatico 4G/5G
+                    </p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> Fibra FTTH/FTTC con banda garantita</li>
+                        <li><i class="fas fa-check"></i> IP statico e multipli IP pubblici</li>
+                        <li><i class="fas fa-check"></i> Backup automatico su rete mobile</li>
+                        <li><i class="fas fa-check"></i> SLA 99.9% uptime garantito</li>
+                        <li><i class="fas fa-check"></i> Assistenza tecnica prioritaria H24</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Verifica Copertura</a>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="solution-title">Flotte Aziendali 5G</h3>
+                    <p class="solution-description">
+                        Gestione centralizzata delle SIM aziendali con controllo costi in tempo reale
+                    </p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> Piani con Giga condivisi tra utenti</li>
+                        <li><i class="fas fa-check"></i> Portale gestione flotte online</li>
+                        <li><i class="fas fa-check"></i> Controllo e limite spesa per SIM</li>
+                        <li><i class="fas fa-check"></i> Roaming internazionale gestito</li>
+                        <li><i class="fas fa-check"></i> Device management MDM incluso</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Configura Flotta</a>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-phone-volume"></i>
+                    </div>
+                    <h3 class="solution-title">Centralino Cloud VoIP</h3>
+                    <p class="solution-description">
+                        Centralino virtuale scalabile con funzionalità avanzate e app mobile
+                    </p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> Numero illimitato di interni</li>
+                        <li><i class="fas fa-check"></i> IVR e code di chiamata intelligenti</li>
+                        <li><i class="fas fa-check"></i> Registrazione conversazioni</li>
+                        <li><i class="fas fa-check"></i> Integrazione CRM (Salesforce, HubSpot)</li>
+                        <li><i class="fas fa-check"></i> App mobile iOS/Android</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Demo Gratuita</a>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="solution-title">Cybersecurity</h3>
+                    <p class="solution-description">
+                        Protezione completa per la tua infrastruttura IT e i dati aziendali
+                    </p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> Firewall gestito next-gen</li>
+                        <li><i class="fas fa-check"></i> Antivirus centralizzato endpoint</li>
+                        <li><i class="fas fa-check"></i> Backup cloud automatico</li>
+                        <li><i class="fas fa-check"></i> VPN site-to-site sicura</li>
+                        <li><i class="fas fa-check"></i> Monitoring 24/7 SOC</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Analisi Rischi</a>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="solution-title">Cloud & Smart Working</h3>
+                    <p class="solution-description">
+                        Soluzioni cloud per collaborazione e lavoro agile in totale sicurezza
+                    </p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> Microsoft 365 / Google Workspace</li>
+                        <li><i class="fas fa-check"></i> Desktop virtuali Windows/Linux</li>
+                        <li><i class="fas fa-check"></i> Storage cloud scalabile</li>
+                        <li><i class="fas fa-check"></i> Collaboration tools integrati</li>
+                        <li><i class="fas fa-check"></i> Accesso sicuro ZTNA</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Prova Gratuita</a>
+                </div>
+
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="solution-title">IoT & Industry 4.0</h3>
+                    <p class="solution-description">
+                        Digitalizzazione dei processi produttivi con soluzioni IoT avanzate
+                    </p>
+                    <ul class="solution-features">
+                        <li><i class="fas fa-check"></i> SIM M2M per dispositivi IoT</li>
+                        <li><i class="fas fa-check"></i> Piattaforma gestione sensori</li>
+                        <li><i class="fas fa-check"></i> Analytics predittiva AI-powered</li>
+                        <li><i class="fas fa-check"></i> Edge computing 5G</li>
+                        <li><i class="fas fa-check"></i> Consulenza Industry 4.0</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Caso Studio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">COME FUNZIONA</span>
+                <h2>Il Nostro Processo in 4 Step</h2>
+                <p>Un percorso strutturato per garantirti la migliore soluzione possibile</p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="process-content left">
+                        <h3 class="process-title">Analisi Gratuita</h3>
+                        <p class="process-description">
+                            Analizziamo le tue fatture attuali e i consumi reali per identificare 
+                            inefficienze e opportunità di risparmio. Tutto senza impegno.
+                        </p>
+                    </div>
+                    <div class="process-number">1</div>
+                    <div></div>
+                </div>
+
+                <div class="process-step">
+                    <div></div>
+                    <div class="process-number">2</div>
+                    <div class="process-content">
+                        <h3 class="process-title">Proposta Personalizzata</h3>
+                        <p class="process-description">
+                            Confrontiamo WindTre e Vodafone Business per creare una proposta 
+                            su misura che ottimizzi costi e prestazioni.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-content left">
+                        <h3 class="process-title">Attivazione Assistita</h3>
+                        <p class="process-description">
+                            Gestiamo noi portabilità, configurazioni e installazioni. 
+                            Zero interruzioni del servizio, massima tranquillità.
+                        </p>
+                    </div>
+                    <div class="process-number">3</div>
+                    <div></div>
+                </div>
+
+                <div class="process-step">
+                    <div></div>
+                    <div class="process-number">4</div>
+                    <div class="process-content">
+                        <h3 class="process-title">Supporto Continuo</h3>
+                        <p class="process-description">
+                            Assistenza dedicata H24, monitoraggio consumi e ottimizzazione 
+                            continua del piano per adattarsi alla crescita aziendale.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="calculator-section" id="calculator">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">CALCOLA IL RISPARMIO</span>
+                <h2>Quanto Puoi Risparmiare?</h2>
+                <p>Inserisci i tuoi dati attuali e scopri il potenziale risparmio annuale</p>
+            </div>
+
+            <div class="calculator-container">
+                <form class="calculator-form" id="savingsCalculator">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Numero di linee mobili</label>
+                            <input type="number" class="form-input" id="mobileLines" min="1" value="10" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Costo medio per linea (€/mese)</label>
+                            <input type="number" class="form-input" id="lineCost" min="10" value="35" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Costo fibra aziendale (€/mese)</label>
+                            <input type="number" class="form-input" id="fiberCost" min="0" value="150" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Altri servizi TLC (€/mese)</label>
+                            <input type="number" class="form-input" id="otherCost" min="0" value="100">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Operatore attuale</label>
+                        <select class="form-select" id="currentOperator">
+                            <option value="tim">TIM</option>
+                            <option value="vodafone">Vodafone</option>
+                            <option value="windtre">WindTre</option>
+                            <option value="fastweb">Fastweb</option>
+                            <option value="altro">Altro</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; padding: 18px;">
+                        <i class="fas fa-calculator"></i> Calcola Risparmio
+                    </button>
+                </form>
+
+                <div class="calculator-result" id="calculatorResult">
+                    <h3 style="color: white; margin-bottom: 10px;">Il Tuo Risparmio Stimato</h3>
+                    <div class="savings-amount">€<span id="savingsAmount">0</span></div>
+                    <p style="font-size: 1.2rem; margin-bottom: 30px;">di risparmio annuale</p>
+                    <a href="/contatti" class="btn btn-primary" style="background: white; color: var(--success);">
+                        <i class="fas fa-rocket"></i> Attiva il Risparmio Ora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">CASE STUDY</span>
+                <h2>Storie di Successo</h2>
+                <p>Come abbiamo aiutato le aziende a ottimizzare i costi di telefonia</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-business">
+                    <span class="testimonial-quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </span>
+                    <p class="testimonial-text">
+                        "Gestisco una flotta di 45 veicoli e prima pagavo oltre €2.000 al mese solo di telefonia mobile. 
+                        TechPartner ha analizzato i nostri consumi reali e ci ha fatto passare a WindTre Business con 
+                        un piano Giga condivisi. Ora spendiamo €890 al mese con più servizi inclusi. 
+                        Un risparmio di oltre €13.000 all'anno!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RC</div>
+                        <div class="author-details">
+                            <div class="author-name">Roberto Castelli</div>
+                            <div class="author-company">CEO, Castelli Trasporti S.r.l.</div>
+                            <div class="author-savings">
+                                <i class="fas fa-chart-line"></i> Risparmio: -56% sui costi telefonici
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-business" style="margin-top: 30px;">
+                    <span class="testimonial-quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </span>
+                    <p class="testimonial-text">
+                        "Come studio di architettura avevamo bisogno di connettività affidabile e centralino professionale. 
+                        TechPartner ci ha configurato Vodafone Business con fibra 10 Gbps e One Net. 
+                        La differenza è incredibile: videochiamate perfette, backup cloud automatico e 
+                        abbiamo ridotto i costi del 35% rispetto a prima."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-details">
+                            <div class="author-name">Silvia Moretti</div>
+                            <div class="author-company">Partner, Studio Moretti & Associati</div>
+                            <div class="author-savings">
+                                <i class="fas fa-chart-line"></i> ROI: recuperato investimento in 4 mesi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">DOMANDE FREQUENTI</span>
+                <h2>Tutto Quello che Devi Sapere</h2>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        Quanto costa l'analisi dei consumi?
+                    </h3>
+                    <p class="faq-answer">
+                        L'analisi è completamente gratuita e senza impegno. Analizziamo le tue fatture, 
+                        identifichiamo le inefficienze e ti presentiamo un confronto dettagliato delle 
+                        alternative disponibili.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        Posso mantenere i miei numeri?
+                    </h3>
+                    <p class="faq-answer">
+                        Certamente! Gestiamo noi tutta la portabilità (MNP) garantendo zero interruzioni 
+                        del servizio. I tuoi clienti continueranno a chiamarti sugli stessi numeri.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        Quali sono i tempi di attivazione?
+                    </h3>
+                    <p class="faq-answer">
+                        Per le linee mobili 24-48 ore dalla richiesta. Per la fibra aziendale 
+                        15-30 giorni in base alla zona. Centralini cloud attivi in 2-3 giorni lavorativi.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        Che assistenza offrite post-vendita?
+                    </h3>
+                    <p class="faq-answer">
+                        Assistenza dedicata H24 via telefono e WhatsApp. Account manager dedicato 
+                        per aziende con più di 20 linee. Intervento on-site entro 4 ore per problemi critici.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        Posso avere fattura elettronica?
+                    </h3>
+                    <p class="faq-answer">
+                        Ovviamente! Fatturazione elettronica con SDI, possibilità di fatture separate 
+                        per centri di costo, integrazione con i principali software gestionali.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">
+                        <i class="fas fa-question-circle"></i>
+                        Offrite soluzioni per lo smart working?
+                    </h3>
+                    <p class="faq-answer">
+                        Sì, abbiamo pacchetti completi: VPN sicure, softphone per PC/mobile, 
+                        router 5G per backup, collaboration tools e cybersecurity per il lavoro remoto.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Business -->
+    <div class="container">
+        <div class="cta-business">
+            <h2>Inizia a Risparmiare dalla Prossima Fattura</h2>
+            <p>
+                Analisi gratuita in 24 ore. Nessun vincolo, nessun costo nascosto. 
+                Solo risparmio garantito e servizio migliore.
+            </p>
+            <div class="cta-buttons">
+                <a href="tel:+393331234567" class="btn btn-primary" style="background: white; color: var(--primary-dark); font-size: 1.1rem; padding: 18px 40px;">
+                    <i class="fas fa-phone"></i> Parla con un Consulente
+                </a>
+                <a href="/contatti" class="btn btn-secondary" style="background: rgba(255,255,255,0.2); color: white; border-color: white; font-size: 1.1rem; padding: 18px 40px;">
+                    <i class="fas fa-file-alt"></i> Richiedi Analisi Online
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 TechPartner S.r.l. - P.IVA 12345678901 - Partner Autorizzato WindTre Business e Vodafone Business</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Savings Calculator
+        document.getElementById('savingsCalculator').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const mobileLines = parseInt(document.getElementById('mobileLines').value);
+            const lineCost = parseFloat(document.getElementById('lineCost').value);
+            const fiberCost = parseFloat(document.getElementById('fiberCost').value);
+            const otherCost = parseFloat(document.getElementById('otherCost').value) || 0;
+            
+            // Calculate current annual cost
+            const currentMonthlyCost = (mobileLines * lineCost) + fiberCost + otherCost;
+            const currentAnnualCost = currentMonthlyCost * 12;
+            
+            // Estimate savings (25-40% based on current operator)
+            const operator = document.getElementById('currentOperator').value;
+            let savingsPercentage = 0.30; // default 30%
+            
+            if (operator === 'tim') savingsPercentage = 0.35;
+            else if (operator === 'fastweb') savingsPercentage = 0.40;
+            else if (operator === 'vodafone' || operator === 'windtre') savingsPercentage = 0.25;
+            
+            const estimatedSavings = Math.round(currentAnnualCost * savingsPercentage);
+            
+            // Show result
+            document.getElementById('savingsAmount').textContent = estimatedSavings.toLocaleString('it-IT');
+            document.getElementById('calculatorResult').classList.add('show');
+            
+            // Smooth scroll to result
+            document.getElementById('calculatorResult').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+
+        // Animate on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements
+        document.querySelectorAll('.solution-card, .operator-card, .process-step, .faq-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
